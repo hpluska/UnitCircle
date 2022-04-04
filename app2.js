@@ -57,6 +57,15 @@ yAxis.style.borderRight = "white thin solid";
 yAxis.style.position = "abolute";
 drawArea.append(yAxis);
 
+var unitCircle = document.createElement("div");
+unitCircle.style.width = "300px";
+unitCircle.style.height = "300px";
+unitCircle.style.borderRadius = "50%";
+unitCircle.style.border = "yellow thin solid";
+unitCircle.style.position = "absolute";
+unitCircle.style.top = 50 + "px";
+unitCircle.style.left = 50 + "px";
+
 var point, xShift = 196, yShift = 196;
 
 function drawPoint(){
