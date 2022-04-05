@@ -66,6 +66,8 @@ unitCircle.style.position = "absolute";
 unitCircle.style.top = 50 + "px";
 unitCircle.style.left = 50 + "px";
 
+drawArea.append(unitCircle);
+
 var point, xShift = 196, yShift = 196;
 
 function drawPoint(){
